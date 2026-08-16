@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 60" width="160" height="60" fill="none">
+  <defs>
+    <linearGradient id="audiGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="30%" stop-color="#c5cbd2"/>
+      <stop offset="70%" stop-color="#808894"/>
+      <stop offset="100%" stop-color="#3d434d"/>
+    </linearGradient>
+    <linearGradient id="audiGradDark" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#555a64"/>
+      <stop offset="50%" stop-color="#d4d9df"/>
+      <stop offset="100%" stop-color="#7a828e"/>
+    </linearGradient>
+    <filter id="audiShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="1" stdDeviation="1" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  <g filter="url(#audiShadow)">
+    <!-- Ring 1 -->
+    <circle cx="35" cy="30" r="21" stroke="url(#audiGrad)" stroke-width="4.2" fill="none"/>
+    <circle cx="35" cy="30" r="19" stroke="url(#audiGradDark)" stroke-width="1" fill="none" opacity="0.6"/>
+    
+    <!-- Ring 2 -->
+    <circle cx="65" cy="30" r="21" stroke="url(#audiGrad)" stroke-width="4.2" fill="none"/>
+    <circle cx="65" cy="30" r="19" stroke="url(#audiGradDark)" stroke-width="1" fill="none" opacity="0.6"/>
+    
+    <!-- Ring 3 -->
+    <circle cx="95" cy="30" r="21" stroke="url(#audiGrad)" stroke-width="4.2" fill="none"/>
+    <circle cx="95" cy="30" r="19" stroke="url(#audiGradDark)" stroke-width="1" fill="none" opacity="0.6"/>
+    
+    <!-- Ring 4 -->
+    <circle cx="125" cy="30" r="21" stroke="url(#audiGrad)" stroke-width="4.2" fill="none"/>
+    <circle cx="125" cy="30" r="19" stroke="url(#audiGradDark)" stroke-width="1" fill="none" opacity="0.6"/>
+  </g>
+</svg>

@@ -1,0 +1,6 @@
+{
+  "name": "HDG CARS LTD",
+  "description": "HDG CARS LTD - Quality Used Cars in Rowley Regis, Dudley, Birmingham, and the West Midlands.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

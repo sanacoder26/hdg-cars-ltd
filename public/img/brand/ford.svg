@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 80" width="160" height="80">
+  <defs>
+    <linearGradient id="fordBlue" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#002b66"/>
+      <stop offset="50%" stop-color="#001a44"/>
+      <stop offset="100%" stop-color="#000e28"/>
+    </linearGradient>
+    <linearGradient id="fordSilver" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="50%" stop-color="#bcc4cc"/>
+      <stop offset="100%" stop-color="#6e7884"/>
+    </linearGradient>
+    <filter id="fordShadow">
+      <feDropShadow dx="0" dy="1.5" stdDeviation="1.5" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  <g filter="url(#fordShadow)">
+    <!-- Outer rim -->
+    <ellipse cx="80" cy="40" rx="72" ry="34" fill="url(#fordSilver)"/>
+    <!-- Blue inner body -->
+    <ellipse cx="80" cy="40" rx="69" ry="31" fill="url(#fordBlue)"/>
+    <!-- Inner silver pin -->
+    <ellipse cx="80" cy="40" rx="64" ry="26.5" fill="none" stroke="url(#fordSilver)" stroke-width="1.8"/>
+    
+    <!-- Ford Script representation in stylized bezier curves -->
+    <path d="M42 49 C43 38, 48 30, 56 26 C60 24, 66 25, 68 28 C68.5 29, 68 30.5, 66 31 C63 31.5, 60 30, 58 31 C52 34, 49 43, 48 51 C47.5 53, 46.5 54, 45 54 C43 54, 41.5 52, 42 49 Z" fill="#ffffff"/>
+    <path d="M46 36 C55 35, 69 34, 76 34 C77.5 34, 78 35, 76.5 36.5 C73 39.5, 67 40, 58 41 C54 41.5, 48 42, 43 42 C44 39, 45 37, 46 36 Z" fill="#ffffff"/>
+    <path d="M78 45 C77 40, 80 34, 85 34 C90 34, 92 38, 91 43 C90 48, 86 52, 82 52 C78.5 52, 77 48, 78 45 Z M82 44 C81.5 47, 83 49, 85 49 C87 49, 88.5 46, 88.5 43 C88.5 40, 87 37, 85 37 C83 37, 82 40, 82 44 Z" fill="#ffffff"/>
+    <path d="M96 46 C95 44, 96 38, 97 35 C98 33.5, 100 34, 101 35 C101.5 36, 101 38, 100 40 C103 36, 107 34, 110 35 C111 35.5, 110 38, 108 38.5 C105 39, 102 41, 100 44 C99 47, 98 50, 97 52 C95.5 52, 95 51, 95.5 49 L96 46 Z" fill="#ffffff"/>
+    <path d="M125 24 C126 22, 128 22.5, 127.5 24.5 C126 31, 122 43, 120 51 C119 53, 117.5 53, 116.5 52 C116 50, 117 46, 117.5 44 C115 48, 112 52, 108 52 C104 52, 103 48, 104 43 C105 38, 109 34, 114 34 C117 34, 119 36, 119.5 38 C121 33, 123.5 27, 125 24 Z M111 44 C110.5 47, 112 49, 114 49 C116.5 49, 118 46, 118.5 42 C118.5 39, 117 37, 115 37 C112.5 37, 111.5 40, 111 44 Z" fill="#ffffff"/>
+  </g>
+</svg>

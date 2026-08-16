@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 80" width="200" height="80">
+  <defs>
+    <linearGradient id="miniWingGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="30%" stop-color="#dce1e6"/>
+      <stop offset="70%" stop-color="#9aa2ab"/>
+      <stop offset="100%" stop-color="#555d66"/>
+    </linearGradient>
+    <filter id="miniShadow">
+      <feDropShadow dx="0" dy="1.5" stdDeviation="1.5" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  <g filter="url(#miniShadow)">
+    <!-- Wings left -->
+    <!-- Wing blade 1 (top) -->
+    <path d="M70 28 L15 32 C10 32.5 12 34 16 34.5 L70 34.5 Z" fill="url(#miniWingGrad)"/>
+    <!-- Wing blade 2 -->
+    <path d="M70 37 L22 37.5 C18 38 19 39.5 24 40 L70 40 Z" fill="url(#miniWingGrad)"/>
+    <!-- Wing blade 3 -->
+    <path d="M70 43 L32 43 C28 43.5 30 45 35 45.5 L70 45.5 Z" fill="url(#miniWingGrad)"/>
+    <!-- Wing blade 4 (bottom) -->
+    <path d="M70 48 L46 48 C42 48.5 44 50 48 50.5 L70 50.5 Z" fill="url(#miniWingGrad)"/>
+
+    <!-- Wings right (mirrored) -->
+    <!-- Wing blade 1 (top) -->
+    <path d="M130 28 L185 32 C190 32.5 188 34 184 34.5 L130 34.5 Z" fill="url(#miniWingGrad)"/>
+    <!-- Wing blade 2 -->
+    <path d="M130 37 L178 37.5 C182 38 181 39.5 176 40 L130 40 Z" fill="url(#miniWingGrad)"/>
+    <!-- Wing blade 3 -->
+    <path d="M130 43 L168 43 C172 43.5 170 45 165 45.5 L130 45.5 Z" fill="url(#miniWingGrad)"/>
+    <!-- Wing blade 4 (bottom) -->
+    <path d="M130 48 L154 48 C158 48.5 156 50 152 50.5 L130 50.5 Z" fill="url(#miniWingGrad)"/>
+
+    <!-- Center chrome bezel -->
+    <circle cx="100" cy="40" r="28" fill="url(#miniWingGrad)"/>
+    <!-- Black core -->
+    <circle cx="100" cy="40" r="25" fill="#111111"/>
+    
+    <!-- "MINI" text -->
+    <text x="100" y="47" fill="#ffffff" font-family="'Montserrat', -apple-system, sans-serif" font-weight="900" font-size="18" text-anchor="middle" letter-spacing="1">MINI</text>
+  </g>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 230 32" width="230" height="32">
+  <defs>
+    <linearGradient id="hummerGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="50%" stop-color="#e2e8f0"/>
+      <stop offset="100%" stop-color="#cbd5e1"/>
+    </linearGradient>
+    <filter id="hummerShadow">
+      <feDropShadow dx="0" dy="1" stdDeviation="1" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+  <g fill="url(#hummerGrad)" filter="url(#hummerShadow)">
+    <!-- H -->
+    <path d="M4 2 H16 V13 H30 V2 H42 V30 H30 V19 H16 V30 H4 Z"/>
+    <!-- U -->
+    <path d="M48 2 H60 V19 C60 23 62 25 66.5 25 C71 25 73 23 73 19 V2 H85 V19 C85 27 79 30 66.5 30 C54 30 48 27 48 19 Z"/>
+    <!-- M 1 -->
+    <path d="M91 2 H103 L110 16 L117 2 H129 V30 H119 V12 L112.5 23 H107.5 L101 12 V30 H91 Z"/>
+    <!-- M 2 -->
+    <path d="M135 2 H147 L154 16 L161 2 H173 V30 H163 V12 L156.5 23 H151.5 L145 12 V30 H135 Z"/>
+    <!-- E -->
+    <path d="M179 2 H203 V8 H190 V13 H200 V19 H190 V24 H203 V30 H179 Z"/>
+    <!-- R -->
+    <path d="M209 2 H222 C229 2 233 5 233 11 C233 15 230 17 225 18 L234 30 H221 L213.5 19 H220 C223 19 224.5 17 224.5 15 C224.5 13 223 11 220 11 H217 V30 H209 Z M217 8 H220 C222 8 224 8.5 224 9.5 C224 10.5 222 11 220 11 H217 Z"/>
+  </g>
+</svg>

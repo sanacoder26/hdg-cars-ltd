@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 110" width="160" height="110">
+  <defs>
+    <linearGradient id="toyotaChrome" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="25%" stop-color="#d4d9de"/>
+      <stop offset="60%" stop-color="#8c95a0"/>
+      <stop offset="85%" stop-color="#adb7c2"/>
+      <stop offset="100%" stop-color="#5a626d"/>
+    </linearGradient>
+    <filter id="toyotaShadow">
+      <feDropShadow dx="0" dy="1.5" stdDeviation="1.5" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  <g filter="url(#toyotaShadow)">
+    <!-- Outer oval -->
+    <ellipse cx="80" cy="55" rx="72" ry="46" fill="none" stroke="url(#toyotaChrome)" stroke-width="8"/>
+    
+    <!-- Top inner horizontal oval (head of the T) -->
+    <ellipse cx="80" cy="38" rx="42" ry="18" fill="none" stroke="url(#toyotaChrome)" stroke-width="7"/>
+    
+    <!-- Vertical inner oval (stem of the T) -->
+    <ellipse cx="80" cy="58" rx="18" ry="38" fill="none" stroke="url(#toyotaChrome)" stroke-width="7"/>
+  </g>
+</svg>

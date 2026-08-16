@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <defs>
+    <linearGradient id="vwGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="35%" stop-color="#dce3ea"/>
+      <stop offset="70%" stop-color="#8a96a4"/>
+      <stop offset="100%" stop-color="#55606d"/>
+    </linearGradient>
+    <filter id="vwShadow">
+      <feDropShadow dx="0" dy="1.5" stdDeviation="1.5" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+  <g filter="url(#vwShadow)">
+    <circle cx="60" cy="60" r="54" fill="none" stroke="url(#vwGrad)" stroke-width="5.5"/>
+    <circle cx="60" cy="60" r="50" fill="none" stroke="#ffffff" stroke-width="0.8" opacity="0.4"/>
+    
+    <!-- Top V lines -->
+    <line x1="38" y1="28" x2="57.5" y2="60" stroke="url(#vwGrad)" stroke-width="5.2" stroke-linecap="round"/>
+    <line x1="82" y1="28" x2="62.5" y2="60" stroke="url(#vwGrad)" stroke-width="5.2" stroke-linecap="round"/>
+    
+    <!-- Bottom W lines -->
+    <line x1="28" y1="67" x2="48" y2="103" stroke="url(#vwGrad)" stroke-width="5.2" stroke-linecap="round"/>
+    <line x1="92" y1="67" x2="72" y2="103" stroke="url(#vwGrad)" stroke-width="5.2" stroke-linecap="round"/>
+    <line x1="48" y1="103" x2="60" y2="67" stroke="url(#vwGrad)" stroke-width="5.2" stroke-linecap="round"/>
+    <line x1="72" y1="103" x2="60" y2="67" stroke="url(#vwGrad)" stroke-width="5.2" stroke-linecap="round"/>
+  </g>
+</svg>
